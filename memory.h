@@ -16,11 +16,4 @@ namespace memory
         void free(void* src) noexcept;
         void* realloc(void* src, size_t count) noexcept;
     }
-
-    namespace virt
-    {
-        void* alloc(size_t count) noexcept;
-        void free(void* src) noexcept;
-        void* realloc(void* src, size_t count) noexcept;
-    }
 }
